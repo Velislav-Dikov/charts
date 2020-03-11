@@ -203,8 +203,8 @@ postgresql:
   ## PostgreSQL configuration parameters
   ##
   username: postgres
-   password: dfasdfds    
-   database: repmgr
+  # password: dfasdfds    
+  # database: repmgr
 
   ## Upgrade repmgr extension in the database
   ##
