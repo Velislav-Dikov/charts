@@ -203,8 +203,8 @@ postgresql:
   ## PostgreSQL configuration parameters
   ##
   username: postgres
-  # password:
-  # database:
+   password: sth800
+   database: repmgr
 
   ## Upgrade repmgr extension in the database
   ##
@@ -343,7 +343,7 @@ pgpool:
     successThreshold: 1
     failureThreshold: 5
   readinessProbe:
-    enabled: true
+    enabled: false
     initialDelaySeconds: 5
     periodSeconds: 5
     timeoutSeconds: 5
