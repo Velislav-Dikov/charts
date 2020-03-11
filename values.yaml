@@ -203,7 +203,7 @@ postgresql:
   ## PostgreSQL configuration parameters
   ##
   username: postgres
-   password: sth800
+  # password: 
    database: repmgr
 
   ## Upgrade repmgr extension in the database
