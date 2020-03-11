@@ -184,7 +184,7 @@ postgresql:
     successThreshold: 1
     failureThreshold: 6
   readinessProbe:
-    enabled: true
+    enabled: false
     initialDelaySeconds: 5
     periodSeconds: 10
     timeoutSeconds: 5
